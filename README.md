@@ -1,6 +1,6 @@
 # EFI-HP-ZBook15G3
 
-This repository contains EFI folder for macOS Big Sur for HP ZBook 15 G3
+This repository contains EFI folder for macOS Monterey 12.6 on the HP ZBook 15 G3 using OpenCore 8.4
 
 ## Attention! This configuration won't work until you change PlatformInfo according to this guide: 
 
@@ -18,9 +18,14 @@ Working:
 * Bluetooth and WiFi
 * Handoff
 * iServices
+* CPU Temp and Fan Speed Monitoring
+* Thunderbolt docking
+* USB C ports
+* NvMe 
 
 Known issues:
 * Sleep not working (better disable auto sleep)
 * Headphone mic through combo jack (I think possible solution will be to buy Thunderbolt to 3.5mm adapter, but not tested yet)
 * Battery time is worse comparing to Windows (nearly twice worse)
 * NumLock toggle (it's always turned on)
+* Lower touchpad buttons (closest to edge) - Ones at keyboard function.
